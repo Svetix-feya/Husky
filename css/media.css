@@ -1,0 +1,529 @@
+
+
+@media (max-width: 1366px){
+    .about__text-1,
+    .about__text-2{
+        width: 320px;
+    }
+     
+    .about__dog{
+        width: 730px;
+        height: 486px;
+    }
+}
+
+@media (max-width: 1280px){
+    body{
+        overflow-x:hidden;
+    }
+}
+
+@media (max-width: 1024px){
+    .logo{
+        margin-right: 0;
+    }
+
+    .header{
+        background-position: center;
+    }
+
+    .header__inner{
+        padding-left: 10px;
+    }
+
+    .social{
+        margin-right: 50px;
+    }
+
+    .about__us{
+        display: block;
+    }
+    #about__us-1{
+        background-image: none;
+    }
+    .br_right{
+        display: none;
+    }
+    .about__dog{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 200px;
+    }
+    .about__inner{
+        width: 435px;
+        height: 637px;
+        display: block;
+        margin: 0 auto;
+    }
+    .about__text-1,
+    .about__text-2{
+        width: 422px;
+        height: 267px;
+    }
+    .about__text-2::after{
+        bottom: -150px;
+    }
+    .about__text-2{
+        margin-bottom: 0;
+    }
+
+    .trust__title{
+        width: 650px;
+        margin: 0 auto;
+    }
+    .trust__inner{
+        display: block;
+    }
+    .trust__text{
+        margin: 0 auto;
+    }
+
+    .img-left{
+        margin-top: -3500px;
+    }
+
+    .photo__img{
+        justify-content: center;
+    }
+    .icicles_bg_right{
+        margin-right: 120px;
+    }
+    .photo__item{
+       
+        margin-left: 40px;
+    }
+    .img-rg{
+        margin-left: -200px;
+    }
+    .dressirovka{
+        margin-left: -220px;
+        padding-right: 200px;
+    }
+
+    .rade__item{
+        margin-left: 40px;
+    }
+
+
+    .box__item{
+        width: 300px;
+        height: 300px;
+    }
+
+    .box__item img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .box__title-1,
+    .box__title-2,
+    .box__title{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 60px;
+    }
+
+    .box__text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .questions{
+        margin-top: 130px;
+        width: 370px;
+    }
+    .pushkino{
+        margin-right: 0;
+    }
+
+    .mfp-close{
+        margin-right: 200px;
+    }
+    
+}
+
+
+@media (max-width: 770px){
+    body{
+        overflow-x:hidden;
+    }
+
+    .menu{
+        order: 1;
+    }
+
+    .menu__list{
+        display: block;
+        position: absolute;
+        
+        left: 0;
+        background-color: #fff;
+        right: 0;
+        text-align: left;
+        padding: 20px 0;
+        transform: translateY(-500px);
+        transition: all .5s;
+    }
+
+    .menu__list.menu__list--activ{
+        transform: translateY(0);
+    }
+
+    .logo{
+        margin-right: 50px;
+        margin-left: 28px;
+    }
+
+    .logo-2{
+        display: block;
+        margin-right: 330px;
+    }
+
+    .menu__btn{
+        display: block;
+        cursor: pointer;
+        width: 35px;
+        height: 24px;
+        border: none;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        background-color: transparent;
+        position: relative;
+        
+    }
+
+    .menu__btn::before{
+        content: "";
+        position: absolute;
+        width: 35px;
+        height: 2px;
+        background-color: #000;
+        left: 0;
+        top: 9px;
+    }
+
+    .menu__item{
+        padding: 20px 0;
+        margin-left: 50px;
+    }
+
+    .bg__foto{
+        display: none;
+    }
+   
+    .rade img{
+        display: none;
+    }
+
+    .icicles_bg_right{
+        display: none;
+    }
+    
+    .photo__inner{
+        display: block;
+        margin-top: 500px;
+    }
+    .photo__inner img{
+        margin-left: 100px;
+    }
+
+    .photo__item{
+        margin-top: 100px;
+    }
+  
+    .service__inner{
+        display: block;
+        
+    }
+    
+    .service__inner img{
+        margin-top: 48px
+    }
+
+    .img-rg{       
+        margin-top: 60px;
+    }
+
+    .rade__inner{
+        display: block;
+        margin-top: 150px;
+    }
+    .rade__item{
+        margin-top: 50px;
+    }
+
+
+   
+    .box__item{
+        width: 231px;
+        height: 231px;
+    }
+
+    .box__item img{
+        width: 231px;
+        height: 231px;
+    }
+
+    .box__title-1,
+    .box__title-2,
+    .box__title{
+        margin-top: 0;
+    }
+    .box__text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        position: relative;
+        width: 220px;
+        
+    }
+
+    .pomet{
+        margin-right: 0;
+    }
+    
+    .questions{
+        display: none;
+    }
+
+    .paragrov{
+        width: 531px;
+    }
+
+    .form_send_photo img{
+        display: none;
+    }
+    .wrapper__photo{
+        height: 500px;
+    }
+
+    .mfp-close{
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 540px){
+    .logo-2{
+        margin-right: 100px;
+    }
+
+    .trust__title p{
+        width: 500px;
+    }
+    .trust__title{
+        margin-left: -50px;
+    }
+
+    .box__item{
+        width: 180px;
+        height: 180px;
+    }
+
+    .box__item img{
+        width: 180px;
+        height: 180px;
+    }
+    .box__text{
+        font-size: 16px;
+        width: 180px;
+    }
+    .dad,
+    .mom{
+        display: none;
+    }
+
+    #textarea{
+        margin-left: 20px;
+    }
+    .mfp-close{
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 415px){
+    
+    .logo-2{
+        margin-right: 10px;
+    }
+
+    .logo{
+        margin-right: 15px;
+    }
+    .frame95 p,
+    .frame95__text{
+        display: none;
+    }
+    .frame95{
+        display: none;
+    }
+    
+    .button__main-2{
+        display: block;
+        background-color: #0071AD;
+        color: #fff;
+        width: 250px;
+        /* height: 80px; */
+        padding: 25px 53px;
+        border-radius: 5px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        margin-top: 750px;
+        margin: 750px auto 0 auto;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 150px;
+        
+    }
+
+    .social__link{
+        padding: 10px;
+    }
+    .rectangle41{
+        display: none;
+    }
+
+    .about__dog{
+        margin-left: -30px;
+    }
+    .top__arrow{
+        display: none;
+    }
+
+    .about__title{
+        margin-top: -100px;
+        margin-left: 50px;
+    }
+
+    .about__text-1,
+    .about__text-2{
+        margin-left: 30px;
+    }
+
+    .trust__title p{
+        font-size: 25px;
+        line-height: 32px;
+        width: 350px;
+        
+    }
+
+    .trust__title{
+        margin-left: -120px;
+    }
+    .img-left{
+        display: none;
+    }
+
+    .photo__inner img{
+        margin: 0 auto;
+        margin-top: -700px;
+    }
+    .dressirovka{
+        padding: 0;
+        margin: 0;
+        margin-left: 30px;
+    }
+    .img-rg{
+        margin-left: 0;
+    }
+
+    .paragrov{
+        width: 400px;
+    }
+
+    .hasky{
+        padding-top: 50px;
+    }
+
+    .wrapper{
+        display: block;
+    }
+
+    .box__item{
+        margin: 0 auto;
+        
+    }
+
+    .box__item:nth-child(1){
+        order: 1;
+    }
+    .box__item:nth-child(4){
+        order: 2;
+        
+    }
+
+   
+}
+
+@media (max-width: 375px){
+    .about__text-1,
+    .about__text-2{
+        margin-left: 0;
+    }
+    .dressirovka p{
+        margin-left: -20px;
+        width: 370px;
+    }
+    .paragrov{
+        width: 370px;
+        
+    }
+
+    .hasky{
+        margin-top: 200px;
+    }
+
+    .feedback__inner{
+        width: 370px;
+    }
+
+    .feedback__inner h2,
+    .text-1,
+    .text-2,
+    .feedback__inner p,
+    .feedback__btn{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 320px){
+    .logo-2{
+        display: none;
+    }
+    .logo{
+        margin-right: 100px;
+    }
+    .about__title{
+        margin-left: 0;
+    }
+
+    .about__text-1,
+    .about__text-2{
+        width: 320px;
+    }
+    .trust__title{
+        margin-left: 0;
+        width: 320px;
+    }
+    .dressirovka p{
+        width: 320px;
+    }
+    .paragrov{
+        width: 320px;
+    }
+    .hasky{
+        width: 320px;
+    }
+
+    .feedback__inner{
+        width: 320px;
+    }
+
+    
+}
